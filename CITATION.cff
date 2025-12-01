@@ -1,80 +1,32 @@
-# CITATION.cff - Citation File Format
-# See: https://citation-file-format.github.io/
-
 cff-version: 1.2.0
-title: "UK Debt Sustainability Analysis: A Comprehensive Framework"
-message: "If you use this software, please cite it as below."
+message: "If you use this code, please cite both the paper and the software."
+title: "UK Debt Sustainability Analysis: Replication Code"
+version: 1.0.0
+date-released: 2025-12-01
+url: "https://github.com/yourusername/uk-debt-sustainability-analysis"
+repository-code: "https://github.com/yourusername/uk-debt-sustainability-analysis"
+license: MIT
 type: software
 authors:
-  - family-names: "[Your Family Name]"
-    given-names: "[Your Given Names]"
-    email: your.email@example.com
+  - family-names: "Papachristodoulou"
+    given-names: "Giorgos"
     affiliation: "Imperial College Business School"
-    orcid: "https://orcid.org/0000-0000-0000-0000"
-repository-code: "https://github.com/yourusername/uk-debt-sustainability"
-url: "https://uk-debt-sustainability.readthedocs.io"
-repository-artifact: "https://pypi.org/project/uk-debt-sustainability/"
-abstract: >-
-  A comprehensive debt sustainability analysis framework for the 
-  United Kingdom, implementing advanced econometric methods including 
-  the Bohn fiscal reaction function test, Ghosh et al. fiscal space 
-  calculation, gross financing needs analysis, and fat-tailed Monte 
-  Carlo simulations.
-keywords:
-  - debt sustainability
-  - fiscal policy
-  - public finance
-  - monte carlo simulation
-  - bohn test
-  - fiscal space
-  - united kingdom
-  - economics
-  - econometrics
-license: MIT
-version: 1.0.0
-date-released: "2025-11-25"
-identifiers:
-  - type: doi
-    value: "10.5281/zenodo.XXXXXXX"
-    description: "Zenodo archive DOI"
-references:
-  - type: article
-    authors:
-      - family-names: Bohn
-        given-names: Henning
-    title: "The Behavior of U.S. Public Debt and Deficits"
-    journal: "Quarterly Journal of Economics"
-    volume: 113
-    issue: 3
-    start: 949
-    end: 963
-    year: 1998
-  - type: article
-    authors:
-      - family-names: Ghosh
-        given-names: Atish R.
-      - family-names: Kim
-        given-names: Jun I.
-      - family-names: Mendoza
-        given-names: Enrique G.
-      - family-names: Ostry
-        given-names: Jonathan D.
-      - family-names: Qureshi
-        given-names: Mahvash S.
-    title: "Fiscal Fatigue, Fiscal Space and Debt Sustainability in Advanced Economies"
-    journal: "Economic Journal"
-    volume: 123
-    issue: 566
-    start: F4
-    end: F30
-    year: 2013
+  - family-names: "Keshari"
+    given-names: "Aaisha"
+    affiliation: "Imperial College Business School"
+  - family-names: "Michaelides"
+    given-names: "Alex"
+    affiliation: "Imperial College Business School"
 preferred-citation:
-  type: software
+  type: article
   authors:
-    - family-names: "[Your Family Name]"
-      given-names: "[Your Given Names]"
-  title: "UK Debt Sustainability Analysis: A Comprehensive Framework"
-  version: 1.0.0
+    - family-names: "Papachristodoulou"
+      given-names: "Giorgos"
+    - family-names: "Keshari"
+      given-names: "Aaisha"
+    - family-names: "Michaelides"
+      given-names: "Alex"
+  title: "Debt Sustainability in the United Kingdom: A Comprehensive Econometric Assessment Post UK Autumn Budget 2025"
   year: 2025
-  url: "https://github.com/yourusername/uk-debt-sustainability"
-
+  journal: "Working Paper"
+  institution: "Imperial College Business School"
